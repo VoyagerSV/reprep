@@ -1,0 +1,35 @@
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe.config
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\Model.xafml
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.pdb
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.dll
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.dll
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.pdb
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.pdb
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ResolveAssemblyReference.cache
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.Properties.Resources.resources
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.ProjectManagement_1WindowsFormsApplication.resources
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.exe.licenses
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.exe
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.pdb
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe.config
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.exe
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.pdb
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\Model.xafml
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.pdb
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.dll
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.dll
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.pdb
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.pdb
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ResolveAssemblyReference.cache
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.Properties.Resources.resources
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.ProjectManagement_1WindowsFormsApplication.resources
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.exe.licenses
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe.config
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.exe
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Win\obj\Release\ProjectManagement_1.Win.pdb

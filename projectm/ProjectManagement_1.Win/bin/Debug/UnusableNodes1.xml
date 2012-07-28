@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Releases_Participants_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="PartTime" Width="104" />
+      </Columns>
+    </ListView>
+    <DetailView Id="UserEx_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="UserEx">
+              <LayoutGroup Id="UserEx_col1">
+                <LayoutItem Id="TitleOfCourtesy" ViewItem="TitleOfCourtesy" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SecuritySystemUser">
+              <LayoutGroup Id="Item3">
+                <LayoutItem Id="PartTime" ViewItem="PartTime" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

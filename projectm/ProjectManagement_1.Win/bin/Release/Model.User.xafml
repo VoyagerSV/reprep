@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SchedulerModuleBase" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.DetailViewForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Project_DetailView" State="Normal" X="100" Y="100" Width="802" Height="598" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.MainForm" NavigationWidth="200" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Maximized" X="75" Y="75" Width="802" Height="598" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+      </FormStates>
+      <NavBarCustomization Width="192" IsNewNode="True" />
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate" IsNewNode="True" />
+  </Templates>
+</Application>

@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ModelEditorSettings State="Normal" X="175" Y="175" Width="802" Height="598">
+    <ModelEditorControl CurrentAspect="(Default language)" SplitterPosition="0.5" SearchControllVisible="0" FocusedObject="NavigationItems\Items\Default" GroupSettings="BOModel=True;Views=True;Controllers=True" />
+    <SearchControl SearchSplitterPosition="262" SchemaVisible="1" />
+  </ModelEditorSettings>
+  <SchemaModules>
+    <SchemaModule Name="SchedulerModuleBase" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.DetailViewForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Comment_DetailView" State="Normal" X="361" Y="31" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="Customer_DetailView" State="Normal" X="265" Y="62" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="CustomerContact_DetailView" State="Normal" X="393" Y="246" Width="790" Height="457" IsNewNode="True" />
+        <FormState Id="File_DetailView" State="Normal" X="392" Y="31" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="KnowledgeBase_DetailView" State="Normal" X="291" Y="90" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="Part_Time_DetailView" State="Normal" X="254" Y="139" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="Person_DetailView" State="Normal" X="242" Y="53" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="Project_DetailView" State="Maximized" X="192" Y="-17" Width="934" Height="654" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="Releases_DetailView" State="Normal" X="332" Y="61" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="SecuritySystemMemberPermissionsObject_DetailView" State="Normal" X="280" Y="126" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="SecuritySystemObjectPermissionsObject_DetailView" State="Normal" X="262" Y="130" Width="820" Height="616" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="SecuritySystemRole_DetailView" State="Maximized" X="177" Y="-11" Width="910" Height="706" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="SecuritySystemTypePermissionObject_DetailView" State="Maximized" X="339" Y="115" Width="639" Height="610" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="SecuritySystemUser_DetailView" State="Normal" X="150" Y="150" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="UserEx_DetailView" State="Normal" MaximizedOnScreen="\\.\DISPLAY1" X="151" Y="33" Width="1176" Height="736" IsNewNode="True" />
+        <FormState Id="WorkLoad_DetailView" State="Normal" X="451" Y="140" Width="802" Height="598" IsNewNode="True" />
+        <FormState Id="WTime_DetailView" State="Normal" X="302" Y="94" Width="802" Height="598" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupControlTemplate" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Customer_Contact_LookupListView" IsNewNode="True" />
+        <FormState Id="Customer_LookupListView" IsNewNode="True" />
+        <FormState Id="Part_Time_LookupListView" IsNewNode="True" />
+        <FormState Id="Person_LookupListView" IsNewNode="True" />
+        <FormState Id="Project_LookupListView" IsNewNode="True" />
+        <FormState Id="Releases_LookupListView" IsNewNode="True" />
+        <FormState Id="SecuritySystemTypePermissionsObjectBase_LookupListView" IsNewNode="True" />
+        <FormState Id="UserEx_LookupListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Normal" X="473" Y="186" Width="420" Height="366" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.MainForm" NavigationWidth="200" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="-10" Y="52" Width="1388" Height="790" IsNewNode="True" />
+      </FormStates>
+      <NavBarCustomization Width="192" IsNewNode="True" />
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.PopupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="ChangePasswordOnLogonParameters_DetailView" State="Normal" X="402" Y="162" Width="562" Height="414" IsNewNode="True" />
+        <FormState Id="CriteriaProvider_DetailView" State="Normal" X="660" Y="233" Width="521" Height="414" IsNewNode="True" />
+        <FormState Id="ResetPasswordParameters_DetailView" IsNewNode="True" />
+        <FormState Id="SecuritySystemRole_DetailView" State="Normal" X="402" Y="162" Width="562" Height="414" IsNewNode="True" />
+        <FormState Id="WorkLoad_DetailView" State="Normal" X="521" Y="322" Width="562" Height="414" IsNewNode="True" />
+      </FormStates>
+    </Template>
+  </Templates>
+  <Views>
+    <ListView Id="Customer_Contact_ListView">
+      <Columns>
+        <ColumnInfo Id="Customer" Width="55" />
+        <ColumnInfo Id="Notes" Width="37" />
+        <ColumnInfo Id="Name" Width="59" />
+        <ColumnInfo Id="WebPageAddress" Width="110" />
+        <ColumnInfo Id="Email" Width="43" />
+        <ColumnInfo Id="Phone" Width="49" />
+      </Columns>
+    </ListView>
+    <ListView Id="Customer_ListView">
+      <Columns>
+        <ColumnInfo Id="Name" Width="146" />
+        <ColumnInfo Id="Address" Width="497" />
+        <ColumnInfo Id="BusinessSector" Width="505" />
+      </Columns>
+    </ListView>
+    <ListView Id="Customer_LookupListView">
+      <Columns>
+        <ColumnInfo Id="Name" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="KnowledgeBase_ListView">
+      <Columns>
+        <ColumnInfo Id="Name" Width="231" />
+        <ColumnInfo Id="File" Width="261" />
+        <ColumnInfo Id="Category" Width="261" />
+        <ColumnInfo Id="Project" Width="182" />
+        <ColumnInfo Id="UserEx" Index="4" Width="104" />
+        <ColumnInfo Id="VisiMode" Index="5" Width="109" />
+      </Columns>
+    </ListView>
+    <ListView Id="Project_Comments_ListView">
+      <Columns>
+        <ColumnInfo Id="Releases" Index="-1" />
+        <ColumnInfo Id="Text" Index="0" />
+        <ColumnInfo Id="Autor" Index="1" />
+        <ColumnInfo Id="Date" SortIndex="0" SortOrder="Ascending" Index="2" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Project_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" Caption="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="19" Caption="SimpleEditors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+            <LayoutGroup Id="Project" RelativeSize="100" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+              <LayoutGroup Id="Project_col1" RelativeSize="48" Caption="Project_col1" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+                <LayoutItem Id="Title" SizeConstraintsType="Default" RelativeSize="36" ViewItem="Title" />
+                <LayoutItem Id="Custumer" SizeConstraintsType="Default" RelativeSize="27" ViewItem="Custumer" />
+                <LayoutItem Id="Contract" SizeConstraintsType="Default" RelativeSize="36" ViewItem="Contract" />
+                <LayoutItem Id="StartDate" ViewItem="StartDate" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Project_col2" RelativeSize="50" Caption="Project_col2" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+                <LayoutItem Id="StartDate" ViewItem="StartDate" SizeConstraintsType="Default" Index="0" RelativeSize="36" IsNewNode="True" />
+                <LayoutItem Id="EndDate" SizeConstraintsType="Default" RelativeSize="63" Index="1" ViewItem="EndDate" />
+                <LayoutItem Id="UserEx" ViewItem="UserEx" Removed="True" />
+                <LayoutItem Id="VisiMode" ViewItem="VisiMode" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="27" Caption="Task Description" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+            <LayoutItem Id="TaskDescription" CaptionLocation="Top" SizeConstraintsType="Default" RelativeSize="72" TextAlignMode="UseParentOptions" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="TaskDescription" />
+            <LayoutGroup Id="Autofb13405e-0e99-4ad7-b1b2-342742fe6fbc" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="27" IsNewNode="True">
+              <LayoutItem Id="UserEx" ViewItem="UserEx" CaptionLocation="Top" SizeConstraintsType="Default" Index="0" RelativeSize="48" IsNewNode="True" />
+              <LayoutItem Id="VisiMode" ViewItem="VisiMode" CaptionLocation="Top" SizeConstraintsType="Default" Index="1" RelativeSize="51" IsNewNode="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="53" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Releases" TextAlignMode="AlignLocal" RelativeSize="100" Caption="Releases" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="Releases" TextAlignMode="AutoSize" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="Releases" />
+            </LayoutGroup>
+            <LayoutGroup Id="Comments" TextAlignMode="AlignLocal" RelativeSize="100">
+              <LayoutItem Id="Comments" TextAlignMode="AutoSize" SizeConstraintsType="Default" RelativeSize="100" ViewItem="Comments" />
+            </LayoutGroup>
+            <LayoutGroup Id="KnowledgeBase" TextAlignMode="AlignLocal" RelativeSize="100">
+              <LayoutItem Id="KnowledgeBase" TextAlignMode="AutoSize" SizeConstraintsType="Default" RelativeSize="100" ViewItem="KnowledgeBase" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Project_Releases_ListView">
+      <Columns>
+        <ColumnInfo Id="Title" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Releases_Comments_ListView">
+      <Columns>
+        <ColumnInfo Id="Project" Index="-1" />
+        <ColumnInfo Id="Text" Index="0" />
+        <ColumnInfo Id="Autor" Index="1" />
+        <ColumnInfo Id="Date" SortIndex="0" SortOrder="Ascending" Index="2" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Releases_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="StateMachineActionContainer_Change_status_to" Caption="Change status to" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutItem Id="StateMachineActionContainer_Change_status_to" ViewItem="StateMachineActionContainer_Change_status_to" ShowCaption="True" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Releases_Participants_ListView">
+      <Columns>
+        <ColumnInfo Id="User" SortIndex="0" SortOrder="Descending" />
+      </Columns>
+    </ListView>
+    <ListView Id="SecuritySystemRole_Users_ListView">
+      <Columns>
+        <ColumnInfo Id="UserName" Width="252" />
+        <ColumnInfo Id="ChangePasswordOnFirstLogon" Width="244" />
+        <ColumnInfo Id="IsActive" Width="244" />
+      </Columns>
+    </ListView>
+    <ListView Id="SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView">
+      <Columns>
+        <ColumnInfo Id="Members" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView">
+      <Columns>
+        <ColumnInfo Id="Criteria" SortIndex="0" SortOrder="Descending" Width="145" />
+        <ColumnInfo Id="EffectiveRead" SortIndex="-1" SortOrder="None" Width="83" />
+        <ColumnInfo Id="EffectiveWrite" Width="83" />
+        <ColumnInfo Id="EffectiveDelete" Width="83" />
+        <ColumnInfo Id="EffectiveNavigate" Width="83" />
+        <ColumnInfo Id="InheritedFrom" Width="88" />
+      </Columns>
+    </ListView>
+    <ListView Id="SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView">
+      <Columns>
+        <ColumnInfo Id="Object" Width="196" SortIndex="0" SortOrder="Descending" />
+        <ColumnInfo Id="Read" Width="104" />
+        <ColumnInfo Id="Write" Width="104" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Create" Width="104" />
+        <ColumnInfo Id="Delete" Width="104" />
+        <ColumnInfo Id="Navigate" Width="111" />
+      </Columns>
+    </ListView>
+    <ListView Id="SecuritySystemUser_Roles_ListView">
+      <Columns>
+        <ColumnInfo Id="Name" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="IsAdministrative" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <DetailView Id="UserEx_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="73">
+            <LayoutGroup Id="UserEx" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="38">
+              <LayoutGroup Id="UserEx_col1" Caption="UserEx_col1" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="57" Direction="Horizontal">
+                <LayoutGroup Id="Auto837a8ff8-3b3b-4b8c-ab1c-53940e46a8e5" ShowCaption="False" Caption="" Index="0" RelativeSize="83" IsNewNode="True">
+                  <LayoutItem Id="Name" ViewItem="Name" SizeConstraintsType="Default" Index="0" RelativeSize="21" IsNewNode="True" />
+                  <LayoutItem Id="Surname" ViewItem="Surname" SizeConstraintsType="Default" Index="1" RelativeSize="16" IsNewNode="True" />
+                  <LayoutItem Id="TitleOfCourtesy" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="2" RelativeSize="6" IsNewNode="True" />
+                  <LayoutItem Id="WebPageAddress" ViewItem="WebPageAddress" SizeConstraintsType="Default" Index="3" RelativeSize="16" IsNewNode="True" />
+                  <LayoutItem Id="Email" ViewItem="Email" SizeConstraintsType="Default" Index="4" RelativeSize="16" IsNewNode="True" />
+                  <LayoutItem Id="Phone" ViewItem="Phone" SizeConstraintsType="Default" Index="5" RelativeSize="21" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="Item4" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="16" IsNewNode="True" />
+                <LayoutItem Id="WebPageAddress" SizeConstraintsType="Default" Index="3" RelativeSize="15" ViewItem="WebPageAddress" Removed="True" />
+                <LayoutItem Id="Friday" ViewItem="Friday" Removed="True" />
+                <LayoutItem Id="Monday" ViewItem="Monday" Removed="True" />
+                <LayoutItem Id="Name" SizeConstraintsType="Default" RelativeSize="20" ViewItem="Name" Removed="True" />
+                <LayoutItem Id="Surname" SizeConstraintsType="Default" RelativeSize="15" ViewItem="Surname" Removed="True" />
+                <LayoutItem Id="Thursday" ViewItem="Thursday" Removed="True" />
+                <LayoutItem Id="Tuesday" ViewItem="Tuesday" Removed="True" />
+                <LayoutItem Id="Wednesday" ViewItem="Wednesday" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="UserEx_col2" Caption="UserEx_col2" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="40">
+                <LayoutItem Id="UserName" ViewItem="UserName" CaptionLocation="Top" SizeConstraintsType="Default" Index="0" RelativeSize="34" IsNewNode="True" />
+                <LayoutItem Id="ChangePasswordOnFirstLogon" TextAlignMode="CustomSize" ViewItem="ChangePasswordOnFirstLogon" SizeConstraintsType="Default" Index="1" RelativeSize="15" IsNewNode="True" />
+                <LayoutItem Id="IsActive" TextAlignMode="CustomSize" ViewItem="IsActive" SizeConstraintsType="Default" Index="2" RelativeSize="15" IsNewNode="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" SizeConstraintsType="Default" Index="3" RelativeSize="34" ViewItem="" IsNewNode="True" />
+                <LayoutItem Id="Email" ViewItem="Email" Removed="True" />
+                <LayoutItem Id="PartTime" ViewItem="PartTime" Removed="True" />
+                <LayoutItem Id="Phone" ViewItem="Phone" Removed="True" />
+                <LayoutItem Id="Releases" ViewItem="Releases" Removed="True" />
+                <LayoutItem Id="Saturday" ViewItem="Saturday" Removed="True" />
+                <LayoutItem Id="Sunday" ViewItem="Sunday" Removed="True" />
+                <LayoutItem Id="TitleOfCourtesy" ViewItem="TitleOfCourtesy" Removed="True" />
+                <LayoutItem Id="WebPageAddress" ViewItem="WebPageAddress" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Roles_Group" ShowCaption="True" Caption="Roles" TextAlignMode="AlignLocal" Index="1" RelativeSize="32" IsNewNode="True">
+              <LayoutItem Id="Roles" ViewItem="Roles" SizeConstraintsType="Default" Index="0" RelativeSize="83" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutItem Id="Notes" ViewItem="Notes" CaptionLocation="Top" SizeConstraintsType="Default" Index="2" RelativeSize="28" IsNewNode="True" />
+            <LayoutGroup Id="SecuritySystemUser" Caption="SecuritySystemUser" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="0" Direction="Horizontal" Index="3">
+              <LayoutItem Id="ChangePasswordOnFirstLogon" ViewItem="ChangePasswordOnFirstLogon" Removed="True" />
+              <LayoutItem Id="IsActive" ViewItem="IsActive" Removed="True" />
+              <LayoutItem Id="UserName" ViewItem="UserName" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" Caption="Notes" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="26" Direction="Horizontal">
+            <LayoutItem Id="Notes" ViewItem="Notes" Removed="True" />
+          </LayoutGroup>
+          <LayoutGroup Id="Roles_Group" Caption="Roles" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="AlignLocal" Direction="Vertical" RelativeSize="39" Removed="True">
+            <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="39" IsNewNode="True">
+              <LayoutItem Id="ChangePasswordOnFirstLogon" ViewItem="ChangePasswordOnFirstLogon" SizeConstraintsType="Default" Index="0" RelativeSize="26" IsNewNode="True" />
+              <LayoutItem Id="UserName" ViewItem="UserName" SizeConstraintsType="Default" Index="1" RelativeSize="20" IsNewNode="True" />
+              <LayoutItem Id="IsActive" ViewItem="IsActive" SizeConstraintsType="Default" Index="2" RelativeSize="26" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutItem Id="Roles" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" RelativeSize="49" ViewItem="Roles" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="UserEx_ListView">
+      <Columns>
+        <ColumnInfo Id="UserName" Width="263" />
+        <ColumnInfo Id="Name" Width="176" />
+        <ColumnInfo Id="Surname" Width="176" />
+        <ColumnInfo Id="WebPageAddress" Width="176" />
+        <ColumnInfo Id="Email" Width="176" />
+        <ColumnInfo Id="Phone" Width="181" />
+      </Columns>
+    </ListView>
+    <ListView Id="UserEx_LookupListView">
+      <Columns>
+        <ColumnInfo Id="UserName" SortOrder="Descending" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

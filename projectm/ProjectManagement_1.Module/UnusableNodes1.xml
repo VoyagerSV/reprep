@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="ProjectManagement_1.Module.BusinessObjects.WorkLoad">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="NameG" EditMask="90:00:00&gt;LL" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <DetailView Id="UserEx_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="UserEx">
+              <LayoutGroup Id="UserEx_col1">
+                <LayoutItem Id="Monday" ViewItem="Monday" />
+                <LayoutItem Id="Tuesday" ViewItem="Tuesday" />
+                <LayoutItem Id="Wednesday" ViewItem="Wednesday" />
+                <LayoutItem Id="Thursday" ViewItem="Thursday" />
+                <LayoutItem Id="Friday" ViewItem="Friday" />
+              </LayoutGroup>
+              <LayoutGroup Id="UserEx_col2">
+                <LayoutItem Id="Saturday" ViewItem="Saturday" />
+                <LayoutItem Id="Sunday" ViewItem="Sunday" />
+                <LayoutItem Id="Releases" ViewItem="Releases" />
+                <LayoutItem Id="WebPageAddress" ViewItem="WebPageAddress" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

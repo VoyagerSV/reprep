@@ -1,0 +1,30 @@
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\bin\Debug\ProjectManagement_1.Module.dll
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\bin\Debug\ProjectManagement_1.Module.pdb
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.ProjectManagement_1Module.resources
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.dll.licenses
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.dll
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.pdb
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\bin\Debug\ProjectManagement_1.Module.dll
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\bin\Debug\ProjectManagement_1.Module.pdb
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.ProjectManagement_1Module.resources
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.dll.licenses
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.dll
+C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.pdb
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\bin\Debug\ProjectManagement_1.Module.dll
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\bin\Debug\ProjectManagement_1.Module.pdb
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.ProjectManagement_1Module.resources
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.dll.licenses
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.dll
+C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.pdb
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.Controllers.TestController.resources
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.Controllers.ProjectController.resources
+C:\Users\Irakli Managadze\Desktop\ProjectManagement_1\ProjectManagement_1.Module\obj\Debug\ProjectManagement_1.Module.Controllers.ProjDetailController.resources

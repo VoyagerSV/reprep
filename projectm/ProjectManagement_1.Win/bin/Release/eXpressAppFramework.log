@@ -1,0 +1,813 @@
+22.06.12 21:15:47.195	================================================================================
+22.06.12 21:15:47.210	Trace Log for ProjectManagement_1.Win.vshost.exe is started
+22.06.12 21:15:47.210	================================================================================
+22.06.12 21:15:47.226	System Environment
+	OS Version: Microsoft Windows NT 6.1.7600.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 2.0.50727.4963
+	eXpressApp Version: 12.1.4.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+22.06.12 21:15:47.226	Initialize application
+22.06.12 21:15:47.242	=======================
+22.06.12 21:15:47.257		Command line arguments: 
+		C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+22.06.12 21:15:47.585	--------------------------------------------------------------------------------
+22.06.12 21:15:47.585	Initialize Modules Manager
+22.06.12 21:15:47.585	--------------------------------------------------------------------------------
+22.06.12 21:15:47.585	
+22.06.12 21:15:47.867	--------------------------------------------------------------------------------
+Loaded assemblies
+	DevExpress.BonusSkins.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.BonusSkins.v12.1\12.1.4.0__95fc6c5621878f0a\DevExpress.BonusSkins.v12.1.dll
+	DevExpress.Data.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Data.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Data.v12.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v12.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v12.1.dll
+	DevExpress.ExpressApp.Images.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v12.1.dll
+	DevExpress.ExpressApp.Security.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v12.1.dll
+	DevExpress.ExpressApp.StateMachine.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.StateMachine.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.StateMachine.v12.1.dll
+	DevExpress.ExpressApp.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v12.1.dll
+	DevExpress.ExpressApp.Validation.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v12.1.dll
+	DevExpress.ExpressApp.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v12.1.dll
+	DevExpress.ExpressApp.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v12.1.dll
+	DevExpress.Persistent.Base.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.Base.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v12.1.dll
+	DevExpress.Persistent.BaseImpl.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v12.1.dll
+	DevExpress.Printing.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Printing.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.Printing.v12.1.Core.dll
+	DevExpress.Utils.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Utils.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Utils.v12.1.dll
+	DevExpress.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v12.1.dll
+	DevExpress.XtraBars.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraBars.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v12.1.dll
+	DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraEditors.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v12.1.dll
+	DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraGrid.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraGrid.v12.1.dll
+	DevExpress.XtraLayout.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraLayout.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraLayout.v12.1.dll
+	DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraNavBar.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraNavBar.v12.1.dll
+	DevExpress.XtraScheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.dll
+	DevExpress.XtraScheduler.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.Core.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+	ProjectManagement_1.Module, Version=1.0.4556.38271, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.dll
+	ProjectManagement_1.Module.Win, Version=1.0.4556.38272, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.dll
+	ProjectManagement_1.Win, Version=1.0.4556.38272, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe
+	System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Runtime.Serialization\3.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.ServiceModel\3.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll
+	vshost-clr2, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+22.06.12 21:15:49.023	SetupModules
+22.06.12 21:15:49.367	Customize TypesInfo
+22.06.12 21:15:49.398	The ValueManagerType is initialized by the default value: SimpleValueManager.
+22.06.12 21:15:49.398	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   at DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IObjectSpaceProvider objectSpaceProvider, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IObjectSpaceProvider objectSpaceProvider, String[] moduleAssemblies, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, String connectionString, String[] moduleAssemblies, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at ProjectManagement_1.Win.Program.Main() in C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\Program.cs:line 36
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+22.06.12 21:15:51.476	Logon With Parameters
+22.06.12 21:15:51.476	--------------------------------------------------------------------------------
+22.06.12 21:15:51.476	->GetPopupWindowParams
+22.06.12 21:15:51.476		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+22.06.12 21:15:51.476		ID: fabd064e-34ec-4f69-ab7e-91155e5d5f41
+22.06.12 21:15:51.476		Category: Unspecified
+22.06.12 21:15:52.023	--------------------------------------------------------------------------------
+22.06.12 21:15:52.023	<- GetPopupWindowParams
+22.06.12 21:15:52.414	Generate default Model for Action containers
+22.06.12 21:15:59.867	'UserName' property editor: new value is 'Sam'
+22.06.12 21:15:59.867	--------------------------------------------------------------------------------
+22.06.12 21:15:59.867	Execute action
+22.06.12 21:15:59.867		Type: DevExpress.ExpressApp.Actions.SimpleAction
+22.06.12 21:15:59.867		ID: Logon
+22.06.12 21:15:59.882		Category: PopupActions
+22.06.12 21:15:59.882		ContextName: Log On
+22.06.12 21:15:59.882		IsRoot: True
+22.06.12 21:15:59.882		Selection.Count: 1
+22.06.12 21:15:59.882		CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+22.06.12 21:15:59.882	--------------------------------------------------------------------------------
+22.06.12 21:15:59.882	Execute action
+22.06.12 21:15:59.882		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+22.06.12 21:15:59.882		ID: fabd064e-34ec-4f69-ab7e-91155e5d5f41
+22.06.12 21:15:59.882		Category: Unspecified
+22.06.12 21:15:59.882	--------------------------------------------------------------------------------
+22.06.12 21:15:59.882	Start logon process
+22.06.12 21:15:59.898	--------------------------------------------------------------------------------
+22.06.12 21:15:59.898	Checking Compatibility
+22.06.12 21:15:59.898		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=.\SQLEXPRESS;Initial Catalog=ProjectManagement_1;
+22.06.12 21:16:00.289	Check App Name Compatibility
+22.06.12 21:16:00.304	Check stored module versions against the versions of the loaded modules
+22.06.12 21:16:00.304	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'FileAttachmentsWindowsFormsModule' (DevExpress.ExpressApp.FileAttachment.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'StateMachineModule' (DevExpress.ExpressApp.StateMachine.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'SchedulerWindowsFormsModule' (DevExpress.ExpressApp.Scheduler.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:00.304	module 'ProjectManagement_1Module' (ProjectManagement_1.Module). Local version: 1.0.4556.38271, Version on DB: 1.0.4563.37791
+22.06.12 21:16:00.304	ApplicationIsOld
+22.06.12 21:16:00.335	--------------------------------------------------------------------------------
+22.06.12 21:16:00.335	Logon failed
+22.06.12 21:16:00.367	================================================================================
+The error occurred:
+
+	Type:       CompatibilityException
+	Message:    An error with number 1111 has occurred.
+Error message: The database version is greater than the application version. The application needs to be updated. Please contact your system administrator or download a new version.
+Additional information: the local version 1.0.4556.38271 of module 'ProjectManagement_1Module' is smaller than version 1.0.4563.37791 in the database.
+	Data:       0 entries
+	Stack trace:
+
+   at DevExpress.ExpressApp.XafApplication.CheckCompatibilityCore()
+   at DevExpress.ExpressApp.Win.WinApplication.CheckCompatibilityCore()
+   at DevExpress.ExpressApp.XafApplication.CheckCompatibility()
+   at DevExpress.ExpressApp.XafApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+   at DevExpress.ExpressApp.Win.WinApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+	InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	DevExpress.BonusSkins.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.BonusSkins.v12.1\12.1.4.0__95fc6c5621878f0a\DevExpress.BonusSkins.v12.1.dll
+	DevExpress.Data.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Data.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Data.v12.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v12.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v12.1.dll
+	DevExpress.ExpressApp.Images.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v12.1.dll
+	DevExpress.ExpressApp.Security.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v12.1.dll
+	DevExpress.ExpressApp.StateMachine.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.StateMachine.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.StateMachine.v12.1.dll
+	DevExpress.ExpressApp.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v12.1.dll
+	DevExpress.ExpressApp.Validation.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v12.1.dll
+	DevExpress.ExpressApp.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v12.1.dll
+	DevExpress.ExpressApp.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v12.1.dll
+	DevExpress.Office.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Office.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.Office.v12.1.Core.dll
+	DevExpress.Persistent.Base.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.Base.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v12.1.dll
+	DevExpress.Persistent.BaseImpl.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v12.1.dll
+	DevExpress.Printing.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Printing.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.Printing.v12.1.Core.dll
+	DevExpress.RichEdit.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.RichEdit.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.RichEdit.v12.1.Core.dll
+	DevExpress.Utils.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Utils.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Utils.v12.1.dll
+	DevExpress.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v12.1.dll
+	DevExpress.XtraBars.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraBars.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v12.1.dll
+	DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraEditors.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v12.1.dll
+	DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraGrid.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraGrid.v12.1.dll
+	DevExpress.XtraLayout.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraLayout.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraLayout.v12.1.dll
+	DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraNavBar.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraNavBar.v12.1.dll
+	DevExpress.XtraRichEdit.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v12.1.dll
+	DevExpress.XtraScheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.dll
+	DevExpress.XtraScheduler.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.Core.dll
+	DevExpress.XtraTreeList.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraTreeList.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraTreeList.v12.1.dll
+	DevExpress.XtraVerticalGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v12.1.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+	ProjectManagement_1.Module, Version=1.0.4556.38271, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.dll
+	ProjectManagement_1.Module.Win, Version=1.0.4556.38272, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.dll
+	ProjectManagement_1.Win, Version=1.0.4556.38272, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe
+	SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\SMDiagnostics\3.0.0.0__b77a5c561934e089\SMDiagnostics.dll
+	System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Runtime.Serialization\3.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.ServiceModel\3.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll
+	System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll
+	tcivst-4, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	vshost-clr2, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+================================================================================
+
+22.06.12 21:16:14.585	Action 'fabd064e-34ec-4f69-ab7e-91155e5d5f41' done
+22.06.12 21:16:14.585	Action 'Logon' done
+22.06.12 21:16:15.976	--------------------------------------------------------------------------------
+22.06.12 21:16:15.976	Execute action
+22.06.12 21:16:15.976		Type: DevExpress.ExpressApp.Actions.SimpleAction
+22.06.12 21:16:15.992		ID: Logon
+22.06.12 21:16:15.992		Category: PopupActions
+22.06.12 21:16:15.992		ContextName: Log On
+22.06.12 21:16:15.992		IsRoot: True
+22.06.12 21:16:15.992		Selection.Count: 1
+22.06.12 21:16:15.992		CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+22.06.12 21:16:15.992	--------------------------------------------------------------------------------
+22.06.12 21:16:15.992	Execute action
+22.06.12 21:16:15.992		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+22.06.12 21:16:15.992		ID: fabd064e-34ec-4f69-ab7e-91155e5d5f41
+22.06.12 21:16:15.992		Category: Unspecified
+22.06.12 21:16:15.992	--------------------------------------------------------------------------------
+22.06.12 21:16:15.992	Start logon process
+22.06.12 21:16:15.992	--------------------------------------------------------------------------------
+22.06.12 21:16:15.992	Checking Compatibility
+22.06.12 21:16:15.992		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=.\SQLEXPRESS;Initial Catalog=ProjectManagement_1;
+22.06.12 21:16:16.007	Check App Name Compatibility
+22.06.12 21:16:16.007	Check stored module versions against the versions of the loaded modules
+22.06.12 21:16:16.007	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'FileAttachmentsWindowsFormsModule' (DevExpress.ExpressApp.FileAttachment.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'StateMachineModule' (DevExpress.ExpressApp.StateMachine.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'SchedulerWindowsFormsModule' (DevExpress.ExpressApp.Scheduler.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:16:16.007	module 'ProjectManagement_1Module' (ProjectManagement_1.Module). Local version: 1.0.4556.38271, Version on DB: 1.0.4563.37791
+22.06.12 21:16:16.007	ApplicationIsOld
+22.06.12 21:16:16.023	--------------------------------------------------------------------------------
+22.06.12 21:16:16.023	Logon failed
+22.06.12 21:16:16.023	================================================================================
+The error occurred:
+
+	Type:       CompatibilityException
+	Message:    An error with number 1111 has occurred.
+Error message: The database version is greater than the application version. The application needs to be updated. Please contact your system administrator or download a new version.
+Additional information: the local version 1.0.4556.38271 of module 'ProjectManagement_1Module' is smaller than version 1.0.4563.37791 in the database.
+	Data:       0 entries
+	Stack trace:
+
+   at DevExpress.ExpressApp.XafApplication.CheckCompatibilityCore()
+   at DevExpress.ExpressApp.Win.WinApplication.CheckCompatibilityCore()
+   at DevExpress.ExpressApp.XafApplication.CheckCompatibility()
+   at DevExpress.ExpressApp.XafApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+   at DevExpress.ExpressApp.Win.WinApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+	InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	DevExpress.BonusSkins.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.BonusSkins.v12.1\12.1.4.0__95fc6c5621878f0a\DevExpress.BonusSkins.v12.1.dll
+	DevExpress.Data.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Data.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Data.v12.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v12.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v12.1.dll
+	DevExpress.ExpressApp.Images.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v12.1.dll
+	DevExpress.ExpressApp.Security.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v12.1.dll
+	DevExpress.ExpressApp.StateMachine.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.StateMachine.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.StateMachine.v12.1.dll
+	DevExpress.ExpressApp.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v12.1.dll
+	DevExpress.ExpressApp.Validation.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v12.1.dll
+	DevExpress.ExpressApp.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v12.1.dll
+	DevExpress.ExpressApp.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v12.1.dll
+	DevExpress.Office.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Office.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.Office.v12.1.Core.dll
+	DevExpress.Persistent.Base.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.Base.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v12.1.dll
+	DevExpress.Persistent.BaseImpl.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v12.1.dll
+	DevExpress.Printing.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Printing.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.Printing.v12.1.Core.dll
+	DevExpress.RichEdit.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.RichEdit.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.RichEdit.v12.1.Core.dll
+	DevExpress.Utils.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Utils.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Utils.v12.1.dll
+	DevExpress.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v12.1.dll
+	DevExpress.XtraBars.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraBars.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v12.1.dll
+	DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraEditors.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v12.1.dll
+	DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraGrid.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraGrid.v12.1.dll
+	DevExpress.XtraLayout.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraLayout.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraLayout.v12.1.dll
+	DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraNavBar.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraNavBar.v12.1.dll
+	DevExpress.XtraRichEdit.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v12.1.dll
+	DevExpress.XtraScheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.dll
+	DevExpress.XtraScheduler.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.Core.dll
+	DevExpress.XtraTreeList.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraTreeList.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraTreeList.v12.1.dll
+	DevExpress.XtraVerticalGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v12.1.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+	ProjectManagement_1.Module, Version=1.0.4556.38271, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.dll
+	ProjectManagement_1.Module.Win, Version=1.0.4556.38272, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.dll
+	ProjectManagement_1.Win, Version=1.0.4556.38272, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe
+	SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\SMDiagnostics\3.0.0.0__b77a5c561934e089\SMDiagnostics.dll
+	System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Runtime.Serialization\3.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.ServiceModel\3.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll
+	System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll
+	tcivst-4, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	vshost-clr2, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+================================================================================
+
+22.06.12 21:16:16.835	Action 'fabd064e-34ec-4f69-ab7e-91155e5d5f41' done
+22.06.12 21:16:16.835	Action 'Logon' done
+22.06.12 21:16:17.539	--------------------------------------------------------------------------------
+22.06.12 21:16:17.539	Execute action
+22.06.12 21:16:17.539		Type: DevExpress.ExpressApp.Actions.SimpleAction
+22.06.12 21:16:17.539		ID: DialogCancel
+22.06.12 21:16:17.539		Category: PopupActions
+22.06.12 21:16:17.539		ContextName: Log On
+22.06.12 21:16:17.539		IsRoot: True
+22.06.12 21:16:17.539		Selection.Count: 1
+22.06.12 21:16:17.539		CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+22.06.12 21:16:17.539	Window closing: Log On
+22.06.12 21:16:17.554	Action 'DialogCancel' done
+22.06.12 21:16:17.554	Window closed: Log On
+22.06.12 21:16:17.664	Application stopping
+22.06.12 21:16:17.664	=====================
+22.06.12 21:16:54.061	================================================================================
+22.06.12 21:16:54.077	Trace Log for ProjectManagement_1.Win.vshost.exe is started
+22.06.12 21:16:54.077	================================================================================
+22.06.12 21:16:54.077	System Environment
+	OS Version: Microsoft Windows NT 6.1.7600.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 2.0.50727.4963
+	eXpressApp Version: 12.1.4.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+22.06.12 21:16:54.077	Initialize application
+22.06.12 21:16:54.077	=======================
+22.06.12 21:16:54.077		Command line arguments: 
+		C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+22.06.12 21:16:54.280	--------------------------------------------------------------------------------
+22.06.12 21:16:54.280	Initialize Modules Manager
+22.06.12 21:16:54.342	--------------------------------------------------------------------------------
+22.06.12 21:16:54.358	
+22.06.12 21:16:54.624	--------------------------------------------------------------------------------
+Loaded assemblies
+	DevExpress.BonusSkins.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.BonusSkins.v12.1\12.1.4.0__95fc6c5621878f0a\DevExpress.BonusSkins.v12.1.dll
+	DevExpress.Data.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Data.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Data.v12.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v12.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v12.1.dll
+	DevExpress.ExpressApp.Images.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v12.1.dll
+	DevExpress.ExpressApp.Security.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v12.1.dll
+	DevExpress.ExpressApp.StateMachine.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.StateMachine.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.StateMachine.v12.1.dll
+	DevExpress.ExpressApp.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v12.1.dll
+	DevExpress.ExpressApp.Validation.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v12.1.dll
+	DevExpress.ExpressApp.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v12.1.dll
+	DevExpress.ExpressApp.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v12.1.dll
+	DevExpress.Persistent.Base.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.Base.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v12.1.dll
+	DevExpress.Persistent.BaseImpl.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v12.1.dll
+	DevExpress.Printing.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Printing.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.Printing.v12.1.Core.dll
+	DevExpress.Utils.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Utils.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Utils.v12.1.dll
+	DevExpress.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v12.1.dll
+	DevExpress.XtraBars.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraBars.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v12.1.dll
+	DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraEditors.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v12.1.dll
+	DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraGrid.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraGrid.v12.1.dll
+	DevExpress.XtraLayout.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraLayout.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraLayout.v12.1.dll
+	DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraNavBar.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraNavBar.v12.1.dll
+	DevExpress.XtraScheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.dll
+	DevExpress.XtraScheduler.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v12.1.Core\12.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v12.1.Core.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+	ProjectManagement_1.Module, Version=1.0.4556.38305, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.dll
+	ProjectManagement_1.Module.Win, Version=1.0.4556.38305, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.dll
+	ProjectManagement_1.Win, Version=1.0.4556.38306, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe
+	System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Runtime.Serialization\3.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.ServiceModel\3.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll
+	vshost-clr2, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+22.06.12 21:16:55.717	SetupModules
+22.06.12 21:16:56.045	Customize TypesInfo
+22.06.12 21:16:56.077	The ValueManagerType is initialized by the default value: SimpleValueManager.
+22.06.12 21:16:56.077	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   at DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IObjectSpaceProvider objectSpaceProvider, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IObjectSpaceProvider objectSpaceProvider, String[] moduleAssemblies, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, String connectionString, String[] moduleAssemblies, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at ProjectManagement_1.Win.Program.Main() in C:\Users\UFOLOG\Dropbox\DevExpress\ProjectManagement_1\ProjectManagement_1.Win\Program.cs:line 36
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+22.06.12 21:16:58.092	Logon With Parameters
+22.06.12 21:16:58.092	--------------------------------------------------------------------------------
+22.06.12 21:16:58.092	->GetPopupWindowParams
+22.06.12 21:16:58.092		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+22.06.12 21:16:58.092		ID: c8253bbe-f748-4419-93da-34ad3b5c7d9d
+22.06.12 21:16:58.092		Category: Unspecified
+22.06.12 21:16:58.655	--------------------------------------------------------------------------------
+22.06.12 21:16:58.655	<- GetPopupWindowParams
+22.06.12 21:16:59.045	Generate default Model for Action containers
+22.06.12 21:17:05.264	'UserName' property editor: new value is 'Sam'
+22.06.12 21:17:05.280	--------------------------------------------------------------------------------
+22.06.12 21:17:05.280	Execute action
+22.06.12 21:17:05.280		Type: DevExpress.ExpressApp.Actions.SimpleAction
+22.06.12 21:17:05.280		ID: Logon
+22.06.12 21:17:05.280		Category: PopupActions
+22.06.12 21:17:05.280		ContextName: Log On
+22.06.12 21:17:05.280		IsRoot: True
+22.06.12 21:17:05.280		Selection.Count: 1
+22.06.12 21:17:05.280		CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+22.06.12 21:17:05.280	--------------------------------------------------------------------------------
+22.06.12 21:17:05.280	Execute action
+22.06.12 21:17:05.280		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+22.06.12 21:17:05.280		ID: c8253bbe-f748-4419-93da-34ad3b5c7d9d
+22.06.12 21:17:05.280		Category: Unspecified
+22.06.12 21:17:05.295	--------------------------------------------------------------------------------
+22.06.12 21:17:05.295	Start logon process
+22.06.12 21:17:05.295	--------------------------------------------------------------------------------
+22.06.12 21:17:05.295	Checking Compatibility
+22.06.12 21:17:05.295		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=.\SQLEXPRESS;Initial Catalog=ProjectManagement_1;
+22.06.12 21:17:05.389	--------------------------------------------------------------------------------
+22.06.12 21:17:05.389	UpdateDB
+22.06.12 21:17:05.952		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=.\SQLEXPRESS;Initial Catalog=ProjectManagement_1;
+22.06.12 21:17:06.092	Check App Name Compatibility
+22.06.12 21:17:06.374	Check stored module versions against the versions of the loaded modules
+22.06.12 21:17:06.374	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 0.0.0.0
+22.06.12 21:17:06.374	DatabaseIsOld
+22.06.12 21:17:07.983	Module: SystemModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:07.999	Module: SystemWindowsFormsModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:07.999	Module: FileAttachmentsWindowsFormsModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:07.999	Module: ConditionalAppearanceModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:08.014	Module: ValidationModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:08.014	Module: StateMachineModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:08.030	Module: SchedulerModuleBase. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:08.030	Module: SchedulerWindowsFormsModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:08.030	Module: ProjectManagement_1Module. Old version: 0.0.0.0. New version: 1.0.4556.38305
+22.06.12 21:17:08.045	Module: ProjectManagement_1WindowsFormsModule. Old version: 0.0.0.0. New version: 1.0.4556.38305
+22.06.12 21:17:08.045	Module: SecurityModule. Old version: 0.0.0.0. New version: 12.1.4.0
+22.06.12 21:17:08.108	Check App Name Compatibility
+22.06.12 21:17:08.108	Check stored module versions against the versions of the loaded modules
+22.06.12 21:17:08.108	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'FileAttachmentsWindowsFormsModule' (DevExpress.ExpressApp.FileAttachment.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'StateMachineModule' (DevExpress.ExpressApp.StateMachine.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'SchedulerWindowsFormsModule' (DevExpress.ExpressApp.Scheduler.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.108	module 'ProjectManagement_1Module' (ProjectManagement_1.Module). Local version: 1.0.4556.38305, Version on DB: 1.0.4556.38305
+22.06.12 21:17:08.108	module 'ProjectManagement_1WindowsFormsModule' (ProjectManagement_1.Module.Win). Local version: 1.0.4556.38305, Version on DB: 1.0.4556.38305
+22.06.12 21:17:08.108	module 'SecurityModule' (DevExpress.ExpressApp.Security.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:08.139	--------------------------------------------------------------------------------
+22.06.12 21:17:08.139	Logon successful
+22.06.12 21:17:08.155	--------------------------------------------------------------------------------
+22.06.12 21:17:08.155	Logon completed
+22.06.12 21:17:08.155	Action 'c8253bbe-f748-4419-93da-34ad3b5c7d9d' done
+22.06.12 21:17:08.170	Window closing: Log On
+22.06.12 21:17:08.186	Action 'Logon' done
+22.06.12 21:17:08.186	Window closed: Log On
+22.06.12 21:17:08.311		startUpActions: 1
+22.06.12 21:17:08.358	--------------------------------------------------------------------------------
+22.06.12 21:17:08.358	Initialize 'ShowNavigationItem' action items
+22.06.12 21:17:08.452	--------------------------------------------------------------------------------
+22.06.12 21:17:08.452	Execute action
+22.06.12 21:17:08.452		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+22.06.12 21:17:08.452		ID: ChooseSkin
+22.06.12 21:17:08.452		Category: Appearance
+22.06.12 21:17:08.452		SelectedItem: DevExpress Style
+22.06.12 21:17:08.452	Action 'ChooseSkin' done
+22.06.12 21:17:09.295	--------------------------------------------------------------------------------
+22.06.12 21:17:09.295	Execute action
+22.06.12 21:17:09.295		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+22.06.12 21:17:09.295		ID: ShowNavigationItem
+22.06.12 21:17:09.295		Category: ViewsNavigation
+22.06.12 21:17:09.295		SelectedItem: Customer
+22.06.12 21:17:10.155	Action 'ShowNavigationItem' done
+22.06.12 21:17:10.358	Application startup done
+22.06.12 21:17:10.358	=========================
+22.06.12 21:17:10.358	Application running
+22.06.12 21:17:10.374	====================
+22.06.12 21:17:12.467	--------------------------------------------------------------------------------
+22.06.12 21:17:12.467	Execute action
+22.06.12 21:17:12.467		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+22.06.12 21:17:12.467		ID: ShowNavigationItem
+22.06.12 21:17:12.467		Category: ViewsNavigation
+22.06.12 21:17:12.467		ContextName: Customer
+22.06.12 21:17:12.467		IsRoot: True
+22.06.12 21:17:12.483		Selection.Count: 0
+22.06.12 21:17:12.483		CurrentObject: <not specified>
+22.06.12 21:17:12.483		SelectedItem: Project
+22.06.12 21:17:12.608	Action 'ShowNavigationItem' done
+22.06.12 21:17:15.092	--------------------------------------------------------------------------------
+22.06.12 21:17:15.108	Execute action
+22.06.12 21:17:15.108		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+22.06.12 21:17:15.108		ID: New
+22.06.12 21:17:15.108		Category: ObjectsCreation
+22.06.12 21:17:15.108		ContextName: Project
+22.06.12 21:17:15.108		IsRoot: True
+22.06.12 21:17:15.108		Selection.Count: 0
+22.06.12 21:17:15.108		CurrentObject: <not specified>
+22.06.12 21:17:15.108		SelectedItem: Project
+22.06.12 21:17:15.186	Check App Name Compatibility
+22.06.12 21:17:15.186	Check stored module versions against the versions of the loaded modules
+22.06.12 21:17:15.186	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.186	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.186	module 'FileAttachmentsWindowsFormsModule' (DevExpress.ExpressApp.FileAttachment.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.186	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.186	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.186	module 'StateMachineModule' (DevExpress.ExpressApp.StateMachine.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.202	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.202	module 'SchedulerWindowsFormsModule' (DevExpress.ExpressApp.Scheduler.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.202	module 'ProjectManagement_1Module' (ProjectManagement_1.Module). Local version: 1.0.4556.38305, Version on DB: 1.0.4556.38305
+22.06.12 21:17:15.202	module 'ProjectManagement_1WindowsFormsModule' (ProjectManagement_1.Module.Win). Local version: 1.0.4556.38305, Version on DB: 1.0.4556.38305
+22.06.12 21:17:15.202	module 'SecurityModule' (DevExpress.ExpressApp.Security.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+22.06.12 21:17:15.686	Action 'New' done
+22.06.12 21:17:17.874	Window closing: Project
+22.06.12 21:17:17.874	ConfirmationRequest: NeedSaveChanges
+22.06.12 21:17:17.874		DefaultConfirmationResult: No
+22.06.12 21:17:19.820		UserConfirmationResult: No
+22.06.12 21:17:19.835	Window closed: Project
+22.06.12 21:17:21.070	Window closing: Project - ProjectManagement_1
+22.06.12 21:17:21.070	Window closed: Project - ProjectManagement_1
+22.06.12 21:17:21.179	Save model changes
+22.06.12 21:17:21.179	===================
+22.06.12 21:17:21.195	Save model changes
+22.06.12 21:17:21.210	===================
+22.06.12 21:17:21.226	--------------------------------------------------------------------------------
+22.06.12 21:17:21.242	Logoff completed
+22.06.12 21:17:21.242	Application stopping
+22.06.12 21:17:21.242	=====================
+01.07.12 13:26:06.642	================================================================================
+01.07.12 13:26:06.673	Trace Log for ProjectManagement_1.Win.vshost.exe is started
+01.07.12 13:26:06.673	================================================================================
+01.07.12 13:26:06.673	System Environment
+	OS Version: Microsoft Windows NT 6.1.7600.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 2.0.50727.4963
+	eXpressApp Version: 12.1.4.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+01.07.12 13:26:06.673	Initialize application
+01.07.12 13:26:06.673	=======================
+01.07.12 13:26:06.673		Command line arguments: 
+		C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+01.07.12 13:26:06.923	--------------------------------------------------------------------------------
+01.07.12 13:26:06.923	Initialize Modules Manager
+01.07.12 13:26:06.923	--------------------------------------------------------------------------------
+01.07.12 13:26:06.923	
+01.07.12 13:26:07.142	--------------------------------------------------------------------------------
+Loaded assemblies
+	DevExpress.Data.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Data.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Data.v12.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v12.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v12.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v12.1.dll
+	DevExpress.ExpressApp.Security.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v12.1.dll
+	DevExpress.ExpressApp.StateMachine.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.StateMachine.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.StateMachine.v12.1.dll
+	DevExpress.ExpressApp.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v12.1.dll
+	DevExpress.ExpressApp.Validation.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v12.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v12.1.dll
+	DevExpress.ExpressApp.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v12.1.dll
+	DevExpress.ExpressApp.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v12.1.dll
+	DevExpress.Persistent.Base.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Persistent.Base.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v12.1.dll
+	DevExpress.Utils.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Utils.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Utils.v12.1.dll
+	DevExpress.Xpo.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.Xpo.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v12.1.dll
+	DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraEditors.v12.1\12.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v12.1.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+	ProjectManagement_1.Module, Version=1.0.4565.24175, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.dll
+	ProjectManagement_1.Module.Win, Version=1.0.4565.24175, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Module.Win.dll
+	ProjectManagement_1.Win, Version=1.0.4565.24176, Culture=neutral, PublicKeyToken=null, Location=C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.exe
+	System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll
+	vshost-clr2, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\bin\Release\ProjectManagement_1.Win.vshost.exe
+01.07.12 13:26:08.611	SetupModules
+01.07.12 13:26:08.955	Customize TypesInfo
+01.07.12 13:26:08.970	The ValueManagerType is initialized by the default value: SimpleValueManager.
+01.07.12 13:26:08.986	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   at DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IObjectSpaceProvider objectSpaceProvider, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IObjectSpaceProvider objectSpaceProvider, String[] moduleAssemblies, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, String connectionString, String[] moduleAssemblies, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at ProjectManagement_1.Win.Program.Main() in C:\Users\UFOLOG\Desktop\ProjectManagement_1\ProjectManagement_1.Win\Program.cs:line 36
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+01.07.12 13:26:10.923	Logon With Parameters
+01.07.12 13:26:10.923	--------------------------------------------------------------------------------
+01.07.12 13:26:10.939	->GetPopupWindowParams
+01.07.12 13:26:10.939		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+01.07.12 13:26:10.939		ID: 285ea4f8-a75b-459f-ba71-99f9c00ee385
+01.07.12 13:26:10.939		Category: Unspecified
+01.07.12 13:26:11.486	--------------------------------------------------------------------------------
+01.07.12 13:26:11.486	<- GetPopupWindowParams
+01.07.12 13:26:11.845	Generate default Model for Action containers
+01.07.12 13:26:13.783	Resolve the 'DevExpress.ExpressApp.Images.v12.1' assembly
+01.07.12 13:26:13.798	Resolve the 'DevExpress.ExpressApp.Images.v12.1' assembly
+01.07.12 13:26:15.423	--------------------------------------------------------------------------------
+01.07.12 13:26:15.423	Execute action
+01.07.12 13:26:15.423		Type: DevExpress.ExpressApp.Actions.SimpleAction
+01.07.12 13:26:15.423		ID: Logon
+01.07.12 13:26:15.423		Category: PopupActions
+01.07.12 13:26:15.423		ContextName: Log On
+01.07.12 13:26:15.423		IsRoot: True
+01.07.12 13:26:15.423		Selection.Count: 1
+01.07.12 13:26:15.439		CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+01.07.12 13:26:15.439	--------------------------------------------------------------------------------
+01.07.12 13:26:15.439	Execute action
+01.07.12 13:26:15.439		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+01.07.12 13:26:15.439		ID: 285ea4f8-a75b-459f-ba71-99f9c00ee385
+01.07.12 13:26:15.439		Category: Unspecified
+01.07.12 13:26:15.455	--------------------------------------------------------------------------------
+01.07.12 13:26:15.455	Start logon process
+01.07.12 13:26:15.455	--------------------------------------------------------------------------------
+01.07.12 13:26:15.455	Checking Compatibility
+01.07.12 13:26:15.455		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=.\SQLEXPRESS;Initial Catalog=ProjectManagement_1;
+01.07.12 13:26:15.908	Check App Name Compatibility
+01.07.12 13:26:15.908	Check stored module versions against the versions of the loaded modules
+01.07.12 13:26:15.908	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'FileAttachmentsWindowsFormsModule' (DevExpress.ExpressApp.FileAttachment.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'StateMachineModule' (DevExpress.ExpressApp.StateMachine.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'SchedulerWindowsFormsModule' (DevExpress.ExpressApp.Scheduler.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:15.908	module 'ProjectManagement_1Module' (ProjectManagement_1.Module). Local version: 1.0.4565.24175, Version on DB: 1.0.4565.24100
+01.07.12 13:26:15.908	DatabaseIsOld
+01.07.12 13:26:15.955	--------------------------------------------------------------------------------
+01.07.12 13:26:15.970	UpdateDB
+01.07.12 13:26:15.970		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=.\SQLEXPRESS;Initial Catalog=ProjectManagement_1;
+01.07.12 13:26:16.142	Check App Name Compatibility
+01.07.12 13:26:16.142	Check stored module versions against the versions of the loaded modules
+01.07.12 13:26:16.142	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'FileAttachmentsWindowsFormsModule' (DevExpress.ExpressApp.FileAttachment.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'StateMachineModule' (DevExpress.ExpressApp.StateMachine.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'SchedulerWindowsFormsModule' (DevExpress.ExpressApp.Scheduler.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.142	module 'ProjectManagement_1Module' (ProjectManagement_1.Module). Local version: 1.0.4565.24175, Version on DB: 1.0.4565.24100
+01.07.12 13:26:16.142	DatabaseIsOld
+01.07.12 13:26:16.830	Module: SystemModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: SystemWindowsFormsModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: FileAttachmentsWindowsFormsModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: ConditionalAppearanceModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: ValidationModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: StateMachineModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: SchedulerModuleBase. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: SchedulerWindowsFormsModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.830	Module: ViewVariantsModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.908	Module: ProjectManagement_1Module. Old version: 1.0.4565.24100. New version: 1.0.4565.24175
+01.07.12 13:26:16.923	Module: ProjectManagement_1WindowsFormsModule. Old version: 1.0.4565.24101. New version: 1.0.4565.24175
+01.07.12 13:26:16.923	Module: SecurityModule. Old version: 12.1.4.0. New version: 12.1.4.0
+01.07.12 13:26:16.939	Check App Name Compatibility
+01.07.12 13:26:16.939	Check stored module versions against the versions of the loaded modules
+01.07.12 13:26:16.939	module 'SystemModule' (DevExpress.ExpressApp.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'FileAttachmentsWindowsFormsModule' (DevExpress.ExpressApp.FileAttachment.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'StateMachineModule' (DevExpress.ExpressApp.StateMachine.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'SchedulerWindowsFormsModule' (DevExpress.ExpressApp.Scheduler.Win.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.939	module 'ProjectManagement_1Module' (ProjectManagement_1.Module). Local version: 1.0.4565.24175, Version on DB: 1.0.4565.24175
+01.07.12 13:26:16.939	module 'ProjectManagement_1WindowsFormsModule' (ProjectManagement_1.Module.Win). Local version: 1.0.4565.24175, Version on DB: 1.0.4565.24175
+01.07.12 13:26:16.939	module 'SecurityModule' (DevExpress.ExpressApp.Security.v12.1). Local version: 12.1.4.0, Version on DB: 12.1.4.0
+01.07.12 13:26:16.955	--------------------------------------------------------------------------------
+01.07.12 13:26:16.955	Logon successful
+01.07.12 13:26:16.986	--------------------------------------------------------------------------------
+01.07.12 13:26:16.986	Logon completed
+01.07.12 13:26:16.986	Action '285ea4f8-a75b-459f-ba71-99f9c00ee385' done
+01.07.12 13:26:16.986	Window closing: Log On
+01.07.12 13:26:17.001	Action 'Logon' done
+01.07.12 13:26:17.001	Window closed: Log On
+01.07.12 13:26:17.142		startUpActions: 1
+01.07.12 13:26:17.189	--------------------------------------------------------------------------------
+01.07.12 13:26:17.189	Initialize 'ShowNavigationItem' action items
+01.07.12 13:26:17.298	--------------------------------------------------------------------------------
+01.07.12 13:26:17.298	Execute action
+01.07.12 13:26:17.298		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:17.298		ID: ChooseSkin
+01.07.12 13:26:17.298		Category: Appearance
+01.07.12 13:26:17.314		SelectedItem: DevExpress Style
+01.07.12 13:26:17.314	Action 'ChooseSkin' done
+01.07.12 13:26:18.126	--------------------------------------------------------------------------------
+01.07.12 13:26:18.126	Execute action
+01.07.12 13:26:18.126		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:18.126		ID: ShowNavigationItem
+01.07.12 13:26:18.126		Category: ViewsNavigation
+01.07.12 13:26:18.126		SelectedItem: Customer
+01.07.12 13:26:18.955	Action 'ShowNavigationItem' done
+01.07.12 13:26:19.158	Application startup done
+01.07.12 13:26:19.173	=========================
+01.07.12 13:26:19.173	Application running
+01.07.12 13:26:19.173	====================
+01.07.12 13:26:24.970	--------------------------------------------------------------------------------
+01.07.12 13:26:24.970	Execute action
+01.07.12 13:26:24.970		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:24.970		ID: ShowNavigationItem
+01.07.12 13:26:24.970		Category: ViewsNavigation
+01.07.12 13:26:24.970		ContextName: Customer
+01.07.12 13:26:24.970		IsRoot: True
+01.07.12 13:26:24.970		Selection.Count: 0
+01.07.12 13:26:24.970		CurrentObject: <not specified>
+01.07.12 13:26:24.970		SelectedItem: Project
+01.07.12 13:26:25.126	Action 'ShowNavigationItem' done
+01.07.12 13:26:25.876	--------------------------------------------------------------------------------
+01.07.12 13:26:25.876	Execute action
+01.07.12 13:26:25.876		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:25.876		ID: ShowNavigationItem
+01.07.12 13:26:25.876		Category: ViewsNavigation
+01.07.12 13:26:25.876		ContextName: Project
+01.07.12 13:26:25.876		IsRoot: True
+01.07.12 13:26:25.876		Selection.Count: 0
+01.07.12 13:26:25.876		CurrentObject: <not specified>
+01.07.12 13:26:25.876		SelectedItem: Part_Time
+01.07.12 13:26:25.939	Action 'ShowNavigationItem' done
+01.07.12 13:26:26.673	--------------------------------------------------------------------------------
+01.07.12 13:26:26.673	Execute action
+01.07.12 13:26:26.673		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:26.673		ID: ShowNavigationItem
+01.07.12 13:26:26.673		Category: ViewsNavigation
+01.07.12 13:26:26.673		ContextName: Part_Time
+01.07.12 13:26:26.673		IsRoot: True
+01.07.12 13:26:26.673		Selection.Count: 0
+01.07.12 13:26:26.673		CurrentObject: <not specified>
+01.07.12 13:26:26.673		SelectedItem: Knowledge Base
+01.07.12 13:26:26.736	Action 'ShowNavigationItem' done
+01.07.12 13:26:28.658	--------------------------------------------------------------------------------
+01.07.12 13:26:28.658	Execute action
+01.07.12 13:26:28.658		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:28.658		ID: ShowNavigationItem
+01.07.12 13:26:28.658		Category: ViewsNavigation
+01.07.12 13:26:28.658		ContextName: Knowledge Base
+01.07.12 13:26:28.658		IsRoot: True
+01.07.12 13:26:28.658		Selection.Count: 0
+01.07.12 13:26:28.658		CurrentObject: <not specified>
+01.07.12 13:26:28.658		SelectedItem: Knowledge Base
+01.07.12 13:26:28.720	Action 'ShowNavigationItem' done
+01.07.12 13:26:29.501	--------------------------------------------------------------------------------
+01.07.12 13:26:29.501	Execute action
+01.07.12 13:26:29.501		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:29.501		ID: ShowNavigationItem
+01.07.12 13:26:29.501		Category: ViewsNavigation
+01.07.12 13:26:29.517		ContextName: Knowledge Base
+01.07.12 13:26:29.517		IsRoot: True
+01.07.12 13:26:29.517		Selection.Count: 0
+01.07.12 13:26:29.517		CurrentObject: <not specified>
+01.07.12 13:26:29.517		SelectedItem: Knowledge Base
+01.07.12 13:26:29.548	Action 'ShowNavigationItem' done
+01.07.12 13:26:31.033	--------------------------------------------------------------------------------
+01.07.12 13:26:31.033	Execute action
+01.07.12 13:26:31.033		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+01.07.12 13:26:31.033		ID: ShowNavigationItem
+01.07.12 13:26:31.048		Category: ViewsNavigation
+01.07.12 13:26:31.048		ContextName: Knowledge Base
+01.07.12 13:26:31.048		IsRoot: True
+01.07.12 13:26:31.048		Selection.Count: 0
+01.07.12 13:26:31.048		CurrentObject: <not specified>
+01.07.12 13:26:31.048		SelectedItem: Customer
+01.07.12 13:26:31.095	Action 'ShowNavigationItem' done
+01.07.12 13:26:33.470	Window closing: Customer - ProjectManagement_1
+01.07.12 13:26:33.470	Window closed: Customer - ProjectManagement_1
+01.07.12 13:26:33.580	Save model changes
+01.07.12 13:26:33.580	===================
+01.07.12 13:26:33.595	Save model changes
+01.07.12 13:26:33.595	===================
+01.07.12 13:26:33.595	--------------------------------------------------------------------------------
+01.07.12 13:26:33.595	Logoff completed
+01.07.12 13:26:33.611	Application stopping
+01.07.12 13:26:33.611	=====================

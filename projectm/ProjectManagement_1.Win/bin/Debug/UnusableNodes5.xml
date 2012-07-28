@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="UserEx_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="UserEx">
+              <LayoutGroup Id="UserEx_col1">
+                <LayoutItem Id="TitleOfCourtesy" ViewItem="TitleOfCourtesy" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SecuritySystemUser">
+              <LayoutGroup Id="Item3">
+                <LayoutGroup Id="Auto40c46a7d-6cff-4e23-a067-8cf278ba01af">
+                  <LayoutItem Id="Saturday" ViewItem="Saturday" />
+                  <LayoutItem Id="Sunday" ViewItem="Sunday" />
+                  <LayoutItem Id="Friday" ViewItem="Friday" />
+                  <LayoutItem Id="Thursday" ViewItem="Thursday" />
+                  <LayoutItem Id="Wednesday" ViewItem="Wednesday" />
+                  <LayoutItem Id="Tuesday" ViewItem="Tuesday" />
+                  <LayoutItem Id="Monday" ViewItem="Monday" />
+                </LayoutGroup>
+                <LayoutItem Id="PartTime" ViewItem="PartTime" />
+                <LayoutItem Id="Releases" ViewItem="Releases" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

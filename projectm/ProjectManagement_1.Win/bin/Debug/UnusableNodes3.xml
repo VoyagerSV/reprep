@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Releases_Participants_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="UserName" Width="184" />
+        <ColumnInfo Id="Name" Width="47" />
+        <ColumnInfo Id="Surname" Width="47" />
+        <ColumnInfo Id="Monday" Width="31" />
+        <ColumnInfo Id="Tuesday" Width="31" />
+        <ColumnInfo Id="Wednesday" Width="31" />
+        <ColumnInfo Id="Thursday" Width="31" />
+        <ColumnInfo Id="Friday" Width="31" />
+        <ColumnInfo Id="Saturday" Width="31" />
+        <ColumnInfo Id="Sunday" Width="31" />
+        <ColumnInfo Id="WebPageAddress" Width="47" />
+        <ColumnInfo Id="Email" Width="47" />
+        <ColumnInfo Id="Phone" Width="47" />
+      </Columns>
+    </ListView>
+    <DetailView Id="UserEx_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="UserEx">
+              <LayoutGroup Id="UserEx_col1">
+                <LayoutItem Id="TitleOfCourtesy" ViewItem="TitleOfCourtesy" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SecuritySystemUser">
+              <LayoutGroup Id="Item3">
+                <LayoutItem Id="PartTime" ViewItem="PartTime" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

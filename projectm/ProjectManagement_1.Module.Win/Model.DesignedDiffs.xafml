@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <CreatableItems>
+    <CreatableItem ClassName="ProjectManagement_1.Module.BusinessObjects.WorkLoad" ImageName="BO_Scheduler" />
+  </CreatableItems>
+  <SchemaModules>
+    <SchemaModule Name="SchedulerModuleBase" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

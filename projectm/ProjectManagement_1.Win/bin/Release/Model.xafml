@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Mini_HR_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+            <LayoutGroup Id="Mini_HR" RelativeSize="100" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+              <LayoutGroup Id="Mini_HR_col1" RelativeSize="47" ImageName="" Caption="Mini_HR_col1" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+                <LayoutItem Id="Name" SizeConstraintsType="Default" RelativeSize="8" ViewItem="Name" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Surname" SizeConstraintsType="Default" RelativeSize="6" ViewItem="Surname" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Monday" SizeConstraintsType="Default" RelativeSize="6" Index="2" ViewItem="Monday" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Tuesday" SizeConstraintsType="Default" RelativeSize="6" Index="3" ViewItem="Tuesday" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Wednesday" SizeConstraintsType="Default" RelativeSize="6" Index="4" ViewItem="Wednesday" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Thursday" SizeConstraintsType="Default" RelativeSize="6" Index="5" ViewItem="Thursday" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Friday" ViewItem="Friday" SizeConstraintsType="Default" Index="6" RelativeSize="6" IsNewNode="True" />
+                <LayoutItem Id="Saturday" ViewItem="Saturday" SizeConstraintsType="Default" Index="7" RelativeSize="6" IsNewNode="True" />
+                <LayoutItem Id="Sunday" ViewItem="Sunday" SizeConstraintsType="Default" Index="8" RelativeSize="46" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Mini_HR_col2" RelativeSize="47" ImageName="" Caption="Mini_HR_col2" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions">
+                <LayoutItem Id="Contact" SizeConstraintsType="Default" Index="0" RelativeSize="8" ViewItem="Contact" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Saturday" SizeConstraintsType="Default" Index="0" RelativeSize="6" ViewItem="Saturday" Removed="True" />
+                <LayoutItem Id="Sunday" SizeConstraintsType="Default" Index="0" RelativeSize="6" ViewItem="Sunday" Removed="True" />
+                <LayoutItem Id="Releases" SizeConstraintsType="Default" Index="1" RelativeSize="91" ViewItem="Releases" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Friday" ViewItem="Friday" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
